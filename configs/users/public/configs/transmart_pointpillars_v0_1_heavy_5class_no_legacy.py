@@ -1,6 +1,6 @@
 _base_ = [
     "../models/pointpillars_hv_secfpn_heavy_5class_no_legacy.py",
-    "../datasets/aicc_5class.py",
+    "../datasets/tranxmart_5class.py",
     "../schedules/cyclic-80e.py",
     "../../../_base_/default_runtime.py",
 ]
